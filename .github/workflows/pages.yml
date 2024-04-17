@@ -30,6 +30,8 @@ jobs:
         run: npm install 
       - name: asdf
         run: npm -v
+      - name: asdfa=s
+        run: hexo -v
       - name: Build
         run: npm run build
       - name: Upload Pages artifact
