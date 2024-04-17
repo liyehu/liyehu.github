@@ -28,6 +28,8 @@ jobs:
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
         run: npm install npm@9.5.1
+      - name: asdf
+        run: npm -v
       - name: Build
         run: npm run build
       - name: Upload Pages artifact
