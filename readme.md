@@ -10,5 +10,7 @@ git 常用命令为
 git add .
 git commit -m [message]
 git push <remote repo> <local repo>
+git pull <remote repo> <local repo>
 ```
+
 
